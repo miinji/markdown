@@ -171,6 +171,8 @@ Link: [Google][googlelink]
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
+![Haedal](https://avatars3.githubusercontent.com/u/47355438?s=280&v=4)
+![Haedal](https://avatars3.githubusercontent.com/u/47355438?s=280&v=4 "Haedal")
 
 *사이즈 조절
 ```buildoutcfg
@@ -179,16 +181,7 @@ Link: [Google][googlelink]
 ```
 
 
-##3. 적용
-###3.1위지윅(WSYWIG) 에디터
-기본적으로 HTML을 이용하여 스타일을 적용하여 문장을 꾸미는 형태를 취한다.
 
-
-###3.2 혐업개발플랫폼
-깃헙Github, 비트버킷Bitbucket, 요비Yobi 등 협업개발플랫폼의 경우 마크다운을 변환하는 기능이 기본적으로 있기 때문에 작성한 텍스트를 그대로 복사해서 업로드하는 것만으로 마크다운의 적용이 가능
-
-###3.3 MS워드 적용
-View 영역의 항목을 그대로 붙여넣거나 HTML 내보내기 등으로 생성한 파일을 불러오는 형태로 사용 가능
 
 #git 사용법
 
