@@ -1,10 +1,10 @@
 # MARKDOWN
 마크다운 연습하기
 
-##1.마크다운 이란?
+## 1.마크다운 이란?
 마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법
 
-###1.2 마크다운의 특징
+### 1.2 마크다운의 특징
 1.특수 기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여
 웹에서도 보다 빠르게 컨텐츠를 작성하고 직관적으로 인식 가능
 
@@ -14,8 +14,8 @@
 3.지원한 플랫폼이 다양하고 다양한 형태로 변환이 가능 하다는 장점이 있으나
 표준이 없기 때문에 도구에 따라 변환방식이나 생성물이 다르다.
 
-##2.마크다운 문법
-###2.1 헤더(Header)
+## 2.마크다운 문법
+### 2.1 헤더(Header)
 
 -># 개수로 조절가능
 
@@ -29,7 +29,7 @@
 #This is H1() 
 ##This is H2()
 
-##2.2 BlockQuote
+## 2.2 BlockQuote
 ->'<' 마크를 이용하여 문단을 엮어준다.
 
 ```buildoutcfg
@@ -42,7 +42,7 @@
 >	> This is a second blockqute.
 >	>	> This is a third blockqute.
 
-##2.3 목록
+## 2.3 목록
 -> 문서에 순서를 뒤죽박죽 작성하더라도 내림차순으로 정렬된다.
 ```buildoutcfg
 1. 첫번째
@@ -53,7 +53,7 @@
 3. 세번째
 2. 두번째
 
-###2.4 코드
+### 2.4 코드
 ->4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환이 계속 됨
 
 ->한줄 띄어쓰지 않으면 인식이 제대로 안되는 문제가 발생함
@@ -74,7 +74,7 @@ This is a normal paragraph:
     
 end code block.
 
-###2.4.1 코드 블럭
+### 2.4.1 코드 블럭
 ```buildoutcfg
  <pre><code>{code}</code></pre> 이용
 ```
@@ -107,7 +107,7 @@ public class BootSpringBootApplication {
 <pre><code></code></pre> 대신 ``` ``` 이용 가능
 ```
 
-###2.5 수평선
+### 2.5 수평선
 ```buildoutcfg
 * * *
 
@@ -123,7 +123,7 @@ public class BootSpringBootApplication {
 
 * * *
 
-###2.6 링크
+### 2.6 링크
 
 ```buildoutcfg
 *참조링크
@@ -165,7 +165,7 @@ Link: [Google][googlelink]
 * 이메일링크: <address@example.com>
 ```
 
-###2.8 이미지
+### 2.8 이미지
 
 ```buildoutcfg
 ![Alt text](/path/to/img.jpg)
@@ -183,7 +183,7 @@ Link: [Google][googlelink]
 
 
 
-#git 사용법
+# git 사용법
 
 git clone-git add-git commit-git push 순으로 진행
 
